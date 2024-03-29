@@ -1,0 +1,18 @@
+{
+  "short_name": "SwiftMart",
+  "name": "SwiftMart",
+  "description": "Your one-stop ecommerce destination, offering everything you need at your fingertips with unparalleled convenience and speed.",
+  "lang": "en-US",
+  "orientation": "portrait",
+  "theme_color": "#002e62",
+  "icons": [
+    {
+      "src": "640.png",
+      "type": "image/png",
+      "sizes": "640x640"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff"
+}
