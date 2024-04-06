@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url(../public/fonts/Ubuntu-Bold.ttf);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url(../public/fonts/Ubuntu-Light.ttf);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: "Ubuntu-Medium";
+  src: url(../public/fonts/Ubuntu-Medium.ttf);
 }
-
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url(../public/fonts/Ubuntu-Regular.ttf);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rtl {
+  direction: rtl;
+  scrollbar-width: thin;
+  scrollbar-color: #e9e9e9 #ffffff;
+}
+.ltr {
+  direction: ltr;
 }
